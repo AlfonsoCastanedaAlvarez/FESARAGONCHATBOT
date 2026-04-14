@@ -1,7 +1,7 @@
 import { useState, forwardRef, useImperativeHandle } from "react";
 import Message from "./Message";
 import InputBar from "./InputBar";
-import { getResponse } from "../utils/fakeAI";
+import { getResponse } from "../utils/fakechat";
 
 const ChatBox = forwardRef((props, ref) => {
   const [messages, setMessages] = useState([
