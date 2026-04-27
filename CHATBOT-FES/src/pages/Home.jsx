@@ -11,7 +11,7 @@ function Home() {
   };
 
   return (
-    <div className="main-layout">
+    <div className="main-layout fade-in-app">
       <Header />
 
       <div className="app-container">
